@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    padding: 10px;
+    height: 200vh;
+}
+header{
+    background-color: rgb(31, 30, 30);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 10px 10px 0;
+    width: 100%;
+}
+header .div-1{
+    background-color: orangered;
+    padding: 5px 8px;
+    border-radius: 100%;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+}
+header .div-2{
+    background-color: green;
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: black;
+    margin: 5px;
+}
+header .div-3{
+    background-color: rgba(128, 128, 128, 0.222);
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.sec-1{
+    margin-top: 7vh;
+    overflow-x: scroll;
+}
+.sec-1 h3{
+    margin: 10px 0;
+}
+.sec-1 .list{
+    display: flex;
+    min-width: max-content;
+}
+.list a{
+    text-decoration: none;
+    margin-right: 10px;
+    height: 20vh;
+}
+.sec-1 .list a .top{
+    background-image: url(return.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list a .top img{
+    width: 10%;
+    padding: 5px;
+}
+.list a .top p{
+    margin-top: 3.5rem;
+    font-size: 12px;
+    padding: 5px;
+}
+.list a p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sec-2{
+    margin-top: 3vh;
+    overflow-x: scroll;
+}
+.sec-2 h3{
+    margin: 10px 0;
+}
+.sec-2 .list{
+    display: flex;
+    min-width: max-content;
+}
+.sec-2 .list a .top{
+    background-image: url(return.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list a .top img{
+    width: 10%;
+    padding: 5px;
+}
+.list a .top p{
+    margin-top: 3.5rem;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+}
+.list a p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.p-1{
+    color: gray;
+}
+footer{
+    background-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+}
+footer .img-1{
+    width: 50%;
+}
+footer .img-2{
+    width: 50%;
+}
+footer .img-3{
+    width: 50%;
+}
+footer .img-4{
+    width: 35%;
+}
+footer .div-1{
+    width: 22%;
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+}

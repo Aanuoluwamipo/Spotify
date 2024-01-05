@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    background-color: rgb(36,36,36);
+}
+header, .h1, .form-1, .div-1, .div-3, .div-4, .div-5, .div-6{
+    display: none;
+}
+.back, .div-7{
+    display: block;
+}
+section{
+    background-color: rgba(3, 3, 3, 0.068);
+    border-radius: 10px;
+    width: 95%;
+    height: 100vh;
+    padding: 0 10px;
+}
+.back{
+    display: flex;
+    align-items: center;
+}
+.back img{
+    width: 20%;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.back p{
+    width: 120%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.div-7{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-7 .p-1{
+    font-size: 24px;
+    font-weight: bold;
+}
+input{
+    margin: 5px 0 0 0;
+    background-color: rgba(128, 128, 128, 0.438);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 5px;
+}
+input:focus-within{
+    background-color: rgba(128, 128, 128, 0.76);
+    outline: none;
+}
+.div-7 .p-2{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+}
+.div-7 .btn button{
+    width: 30%;
+    background-color: #fff;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 30px 0;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

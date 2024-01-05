@@ -1,0 +1,61 @@
+header{
+    display: none;
+}
+section{
+    background-color: rgba(3, 3, 3, 0.068);
+    width: 95%;
+    margin: 0;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.div-1, .div-2, .div-4, .div-5, .div-6, .div-7{
+    display: none;
+}
+.back{
+    display: block;
+}
+.back img{
+    width: 7%;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.div-3{
+    width: 100%;
+    margin-top: 20px;
+}
+.div-3 p{
+    font-size: 24px;
+}
+input{
+    margin: 5px 0 40px 0;
+    background-color: rgba(128, 128, 128, 0.438);
+    border: none;
+}
+input:focus-within{
+    background-color: rgba(128, 128, 128, 0.76);
+    outline: none;
+}
+.btn, .btn-2{
+    text-align: center;
+}
+.btn-2{
+    display: block;
+    margin-top: 30px;
+}
+.div-3 .btn-2 button{
+    background: none;
+    border: 1px solid rgba(128, 128, 128, 0.332);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.div-3 .btn button{
+    width: 25%;
+    background-color: #fff;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

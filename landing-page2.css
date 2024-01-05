@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    background-color: rgb(18,18,18);
+    height: 100vh;
+}
+.all, .bottom{
+    display: none;
+}
+.sec-2{
+    display: block;
+}
+section{
+    width: 85%;
+    text-align: center;
+    padding: 25px;
+}
+.img-3{
+    display: block;
+    margin: 100px 0;
+}
+.img-3 img{
+    width: 20%;
+}
+.h2{
+    display: block;
+    font-size: 30px;
+}
+.div-3{
+    margin-top: 70px;
+}
+.div-3 .div-31 button{
+    background-color: rgb(95, 229, 95);
+    color: black;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 25px;
+    margin: 8px 0;
+}
+.div-32 button{
+    background: none;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    height: 8vh;
+    margin-bottom: 8px;
+    padding-right: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+.div-3 .div-32 button p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.div-3 .div-32 button{
+    height: 6vh;
+    padding-right: 40px;
+}
+.div-3 button img{
+    width: 12%;
+}
+.div-3 button .img-2{
+    width: 15%;
+}
+.log-in{
+    text-decoration: none;
+}
+.log-in p{
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
