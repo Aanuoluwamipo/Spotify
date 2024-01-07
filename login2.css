@@ -1,12 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
 header{
     display: none;
 }
+body{
+    background-color: rgb(36,36,36);
+}
 section{
-    background-color: rgba(3, 3, 3, 0.068);
     width: 95%;
     margin: 0;
     height: 100vh;
-    border-radius: 10px;
+    border-radius: 0;
     padding: 0 10px;
 }
 .div-1, .div-2, .div-4, .div-5, .div-6, .div-7{
@@ -28,9 +35,13 @@ section{
     font-size: 24px;
 }
 input{
-    margin: 5px 0 40px 0;
+    margin: 5px 0 20px 0;
     background-color: rgba(128, 128, 128, 0.438);
     border: none;
+    padding: 15px;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 5px;
 }
 input:focus-within{
     background-color: rgba(128, 128, 128, 0.76);
@@ -50,12 +61,11 @@ input:focus-within{
     border-radius: 25px;
 }
 .div-3 .btn button{
-    width: 25%;
     background-color: #fff;
-    padding: 13px;
+    color: black;
+    padding: 10px 17px;
+    border-radius: 25px;
+    border: none;
     font-size: 14px;
     font-weight: bold;
-    margin: 0;
-    margin-left: auto !important;
-    margin-right: auto !important;
 }

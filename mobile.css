@@ -6,7 +6,6 @@
 body{
     background-color: rgb(31, 30, 30);
     padding: 10px;
-    height: 200vh;
 }
 header{
     background-color: rgb(31, 30, 30);
@@ -57,9 +56,17 @@ header .div-3{
     height: 20vh;
 }
 .sec-1 .list a .top{
-    background-image: url(return.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.sec-1 .list a .top-1{
+    background-image: url(return.png);
+}
+.sec-1 .list a .top-2{
+    background-image: url(imole-de.png);
+}
+.sec-1 .list a .top-3{
+    background-image: url(breathe.png);
 }
 .list a .top img{
     width: 10%;
@@ -69,6 +76,8 @@ header .div-3{
     margin-top: 3.5rem;
     font-size: 12px;
     padding: 5px;
+    color: black !important;
+    font-weight: 700;
 }
 .list a p{
     margin-top: 10px;
@@ -86,9 +95,17 @@ header .div-3{
     min-width: max-content;
 }
 .sec-2 .list a .top{
-    background-image: url(return.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.sec-2 .list a .top-1{
+    background-image: url(imole-de.png);
+}
+.sec-2 .list a .top-2{
+    background-image: url(return.png);
+}
+.sec-2 .list a .top-3{
+    background-image: url(breathe.png);
 }
 .list a .top img{
     width: 10%;
@@ -106,6 +123,9 @@ header .div-3{
 }
 .p-1{
     color: gray;
+}
+.for-you{
+    margin-top: 4vh;
 }
 footer{
     background-color: transparent;
