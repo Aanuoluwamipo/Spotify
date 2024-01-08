@@ -3,8 +3,11 @@
     padding: 0;
     color: #fff;
 }
-header{
+header, .div-1, .div-2, .div-3, .div-4, .div-5, .div-6, .div-7{
     display: none;
+}
+.back, .div-8{
+    display: block;
 }
 body{
     background-color: rgb(36,36,36);
@@ -16,22 +19,16 @@ section{
     border-radius: 0;
     padding: 0 10px;
 }
-.div-1, .div-2, .div-4, .div-5, .div-6, .div-7{
-    display: none;
-}
-.back{
-    display: block;
-}
 .back img{
     width: 7%;
     margin-left: -10px;
     margin-top: 10px;
 }
-.div-3{
+.div-8{
     width: 100%;
     margin-top: 20px;
 }
-.div-3 p{
+.div-8 p{
     font-size: 24px;
 }
 input{
@@ -54,13 +51,13 @@ input:focus-within{
     display: block;
     margin-top: 30px;
 }
-.div-3 .btn-2 button{
+.div-8 .btn-2 button{
     background: none;
     border: 1px solid rgba(128, 128, 128, 0.332);
     padding: 5px 10px;
     border-radius: 25px;
 }
-.div-3 .btn button{
+.div-8 .btn button{
     background-color: #fff;
     color: black;
     padding: 10px 17px;
