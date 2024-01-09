@@ -129,7 +129,7 @@ header .div-3{
     margin-top: 4vh;
 }
 footer{
-    background-color: rgba(128, 128, 128, 0.39);
+    background-color: rgba(0, 0, 0, 0.155);
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
