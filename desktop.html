@@ -5,243 +5,582 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify-clone</title>
     <link rel="stylesheet" href="desktop.css" media="(min-width:950px)">
+    <link rel="stylesheet" href="desktop-2.css" media="(max-width:600px)">
 </head>
 <body>
-    <div class="all">
-        <div class="left">
-            <div class="div1">
-                <div class="home">
-                    <img class="image2" src="spotifyhomeicon-removebg-preview.png" alt="">
-                    <p>Home</p>
+    <section class="main">
+        <div class="all">
+            <div class="left">
+                <div class="div1">
+                    <div class="home">
+                        <img class="image2" src="spotifyhomeicon-removebg-preview.png" alt="">
+                        <p>Home</p>
+                    </div>
+                    <div class="search">
+                        <img class="image3" src="spotifysearchicon-removebg-preview.png" alt="">
+                        <p>Search</p>
+                    </div>
                 </div>
-                <div class="search">
-                    <img class="image3" src="spotifysearchicon-removebg-preview.png" alt="">
-                    <p>Search</p>
+                <div class="div2">
+                    <div class="overflow">
+                        <header>
+                            <div>
+                                <h2 class="lib">Your Library</h2>
+                            </div>
+                        </header>
+                    </div>
                 </div>
             </div>
-            <div class="div2">
-                <div class="overflow">
-                    <header>
-                        <div>
-                            <h2 class="lib">Your Library</h2>
+            <div class="right">
+                <header>
+                    <div class="div-1"></div>
+                    <div class="div-2">
+                        <a href="login.html">
+                            <button class="log-in">Explore Premium</button>
+                        </a>
+                        <a href="sign-up.html">
+                            <button class="sign-up">Install App</button>
+                        </a>
+                    </div>
+                </header>
+                <h2>
+                    Editor's Picks
+                </h2>
+                <div class="playlists">
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Return Rev. 2:4</p>
+                                </div>
+                                <img class="return" src="return.png" alt="">
+                            </div>
+                            <p class="p-1">Return Rev. 2:4</p>
+                            <p class="p-2">2020</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
                         </div>
-                    </header>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Imole de</p>
+                                </div>
+                                <img class="return" src="imole-de.png" alt="">
+                            </div>
+                            <p class="p-1">Imole de</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Breathe</p>
+                                </div>
+                                <img class="return" src="breathe.png" alt="">
+                            </div>
+                            <p class="p-1">Breathe</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Return Rev. 2:4</p>
+                                </div>
+                                <img class="return" src="return.png" alt="">
+                            </div>
+                            <p class="p-1">Return Rev. 2:4</p>
+                            <p class="p-2">2020</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Imole de</p>
+                                </div>
+                                <img class="return" src="imole-de.png" alt="">
+                            </div>
+                            <p class="p-1">Imole de</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Breathe</p>
+                                </div>
+                                <img class="return" src="breathe.png" alt="">
+                            </div>
+                            <p class="p-1">Breathe</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Return Rev. 2:4</p>
+                                </div>
+                                <img class="return" src="return.png" alt="">
+                            </div>
+                            <p class="p-1">Return Rev. 2:4</p>
+                            <p class="p-2">2020</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Imole de</p>
+                                </div>
+                                <img class="return" src="imole-de.png" alt="">
+                            </div>
+                            <p class="p-1">Imole de</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="div-1">
+                            <div class="div-2">
+                                <div class="top">
+                                    <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                                    <p>Breathe</p>
+                                </div>
+                                <img class="return" src="breathe.png" alt="">
+                            </div>
+                            <p class="p-1">Breathe</p>
+                            <p class="p-2">2019</p>
+                            <div class="play">
+                                <img src="play-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <footer>
+                    <div class="top">
+                        <div class="div-1">
+                            <p>Company</p>
+                            <a href="">About</a>
+                            <a href="">Jobs</a>
+                            <a href="">For the Record</a>
+                        </div>
+                        <div class="div-1">
+                            <p>Communities</p>
+                            <a href="">For Artists</a>
+                            <a href="">Developers</a>
+                            <a href="">Advertising</a>
+                            <a href="">Investors</a>
+                            <a href="">Vendors</a>
+                        </div>
+                        <div class="div-1">
+                            <p>Useful links</p>
+                            <a href="">Support</a>
+                            <a href="">Free Mobile App</a>
+                        </div>
+                        <div class="div-2">
+                            <img class="img-1" src="instagram-icon-removebg-preview.png" alt="">
+                            <img class="img-2" src="twitter-icon-removebg-preview.png" alt="">
+                            <img class="img-3" src="facebook-white-icon-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="div-3"></div>
+                    <div class="div-4">
+                        <div class="more-options">
+                            <ul>
+                                <li><a href="">Legel</a></li>
+                                <li><a href="">Privacy Center</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Cookies</a></li>
+                                <li><a href="">About Ads</a></li>
+                                <li><a href="">Accessibility</a></li>
+                            </ul>
+                        </div>
+                        <div class="p">
+                            <p class="p-1">
+                                © 2023 Spotify AB
+                            </p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
-        <div class="right">
-            <header>
-                <div class="div-1"></div>
-                <div class="div-2">
-                    <a href="login.html">
-                        <button class="log-in">Explore Premium</button>
-                    </a>
-                    <a href="sign-up.html">
-                        <button class="sign-up">Install App</button>
-                    </a>
-                </div>
-            </header>
-            <h2>
-                Editor's Picks
-            </h2>
-            <div class="playlists">
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Return Rev. 2:4</p>
-                            </div>
-                            <img class="return" src="return.png" alt="">
-                        </div>
-                        <p class="p-1">Return Rev. 2:4</p>
-                        <p class="p-2">2020</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Imole de</p>
-                            </div>
-                            <img class="return" src="imole-de.png" alt="">
-                        </div>
-                        <p class="p-1">Imole de</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Breathe</p>
-                            </div>
-                            <img class="return" src="breathe.png" alt="">
-                        </div>
-                        <p class="p-1">Breathe</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Return Rev. 2:4</p>
-                            </div>
-                            <img class="return" src="return.png" alt="">
-                        </div>
-                        <p class="p-1">Return Rev. 2:4</p>
-                        <p class="p-2">2020</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Imole de</p>
-                            </div>
-                            <img class="return" src="imole-de.png" alt="">
-                        </div>
-                        <p class="p-1">Imole de</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Breathe</p>
-                            </div>
-                            <img class="return" src="breathe.png" alt="">
-                        </div>
-                        <p class="p-1">Breathe</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Return Rev. 2:4</p>
-                            </div>
-                            <img class="return" src="return.png" alt="">
-                        </div>
-                        <p class="p-1">Return Rev. 2:4</p>
-                        <p class="p-2">2020</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Imole de</p>
-                            </div>
-                            <img class="return" src="imole-de.png" alt="">
-                        </div>
-                        <p class="p-1">Imole de</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="div-1">
-                        <div class="div-2">
-                            <div class="top">
-                                <img src="spotifyspotifyicon-removebg-preview.png" alt="">
-                                <p>Breathe</p>
-                            </div>
-                            <img class="return" src="breathe.png" alt="">
-                        </div>
-                        <p class="p-1">Breathe</p>
-                        <p class="p-2">2019</p>
-                        <div class="play">
-                            <img src="play-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                </a>
+        <a href="">
+            <div class="bottom">
+                
             </div>
-            <footer>
-                <div class="top">
-                    <div class="div-1">
-                        <p>Company</p>
-                        <a href="">About</a>
-                        <a href="">Jobs</a>
-                        <a href="">For the Record</a>
-                    </div>
-                    <div class="div-1">
-                        <p>Communities</p>
-                        <a href="">For Artists</a>
-                        <a href="">Developers</a>
-                        <a href="">Advertising</a>
-                        <a href="">Investors</a>
-                        <a href="">Vendors</a>
-                    </div>
-                    <div class="div-1">
-                        <p>Useful links</p>
-                        <a href="">Support</a>
-                        <a href="">Free Mobile App</a>
-                    </div>
-                    <div class="div-2">
-                        <img class="img-1" src="instagram-icon-removebg-preview.png" alt="">
-                        <img class="img-2" src="twitter-icon-removebg-preview.png" alt="">
-                        <img class="img-3" src="facebook-white-icon-removebg-preview.png" alt="">
-                    </div>
-                </div>
-                <div class="div-3"></div>
-                <div class="div-4">
-                    <div class="more-options">
-                        <ul>
-                            <li><a href="">Legel</a></li>
-                            <li><a href="">Privacy Center</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Cookies</a></li>
-                            <li><a href="">About Ads</a></li>
-                            <li><a href="">Accessibility</a></li>
-                        </ul>
-                    </div>
-                    <div class="p">
-                        <p class="p-1">
-                            © 2023 Spotify AB
+        </a>
+    </section>
+
+    <!-- responsiveness -->
+
+
+    <section class="responsiveness">
+        <header>
+            <div class="div-1">A</div>
+            <div class="div-2">All</div>
+            <div class="div-3">Music</div>
+            <div class="div-3">Podcasts</div>
+        </header>
+        <section class="sec-1">
+            <h3>Recently played</h3>
+            <div class="list">
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
                         </p>
                     </div>
-                </div>
-            </footer>
-        </div>
-    </div>
-    <a href="">
-        <div class="bottom">
-            
-        </div>
-    </a>
+                    <p>
+                        Return Rev. 2:4
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p>
+                        Imole de
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p>
+                        Breathe
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p>
+                        Return Rev. 2:4
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p>
+                        Imole de
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p>
+                        Breathe
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="sec-2">
+            <h3>To get you started</h3>
+            <div class="list">
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="sec-2">
+            <h3>Try something else</h3>
+            <div class="list">
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Dunsin Oyekan
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p class="p-1">
+                        Victoria Orenze
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="sec-1 for-you">
+            <h3>For you</h3>
+            <div class="list">
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p>
+                        Return Rev. 2:4
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p>
+                        Imole de
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p>
+                        Breathe
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-1">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Return Rev. 2:4
+                        </p>
+                    </div>
+                    <p>
+                        Return Rev. 2:4
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-2">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Imole de
+                        </p>
+                    </div>
+                    <p>
+                        Imole de
+                    </p>
+                </a>
+                <a href="">
+                    <div class="top top-3">
+                        <img src="spotifyspotifyicon-removebg-preview.png" alt="">
+                        <p>
+                            Breathe
+                        </p>
+                    </div>
+                    <p>
+                        Breathe
+                    </p>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="div-1">
+                <img class="img-1" src="spotifyhomeicon-removebg-preview.png" alt="">
+                <p>Home</p>
+            </div>        
+            <div class="div-1">
+                <img class="img-2" src="spotifysearchicon-removebg-preview.png" alt="">
+                <p>Search</p>
+            </div>
+            <div class="div-1">
+                <img class="img-3" src="" alt="">
+                <p>Library</p>
+            </div>
+            <div class="div-1">
+                <img class="img-4" src="spotifyspotifyicon-removebg-preview.png" alt="">
+                <p>Premium</p>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
