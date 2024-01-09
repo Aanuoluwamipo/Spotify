@@ -63,7 +63,34 @@ p{
 .overflow header{
     position: sticky;
 }
+.collapse{
+    display: none;
+}
+.collapse p{
+    margin: 0;
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0.125);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 3px;
+}
+/* .lib:hover .collapse p{
+    display: block;
+} */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.library{
+    display: flex;
+    align-items: center;
+}
+.library img{
+    width: 20%;
+}
 .lib{
+    margin-left: 10px;
     background: none;
     border: none;
     font-size: 17px;

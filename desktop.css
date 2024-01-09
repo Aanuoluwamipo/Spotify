@@ -50,7 +50,7 @@ p{
 }
 .overflow{
     overflow: hidden;
-    height: 20.5vh;
+    height: 60vh;
     cursor: default;
 }
 .overflow:hover{
@@ -68,74 +68,6 @@ p{
     font-weight: 600;
     color: gray;
     cursor: pointer;
-}
-.btn{
-    background-color: white;
-    border: none;
-    padding: 7px 15px;
-    border-radius: 20px;
-    margin-left: 10px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-}
-.overflow1{
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgb(36,36,36);
-    margin-top: 10px;
-}
-.overflow2{
-    padding: 15px;
-    border-radius: 5px;
-    margin-top: 25px;
-    background-color: rgb(36,36,36);
-}
-.p-1{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.p-2{
-    margin-top: 12px;
-    font-size: 15px;
-}
-.left .div2 ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding-left: 10px;
-    line-height: 30px;
-    margin: 30px 0;
-}
-.left .div2 li{
-    cursor: pointer;
-    font-size: 12px;
-    margin-right: 20px;
-    color: gray;
-}
-.btn-eng{
-    margin-left: 10px;
-    background: none;
-    outline: none;
-    border: 1px solid gray;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    width: 40%;
-}
-.btn-eng img{
-    width: 25%;
-    margin-right: 5px;
-}
-.btn-eng:hover{
-    cursor: pointer;
-    border: 1px solid #fff;
 }
 .all .right{
     background-color: rgb(18,18,18);
@@ -333,38 +265,8 @@ footer .p-1{
     font-weight: normal;
 }
 .bottom{
-    background-color: #7b66c9;
-    padding: 10px;
-    margin: 8px 0;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 20px;
+    background-color: black;
     color: #fff;
-}
-.bottom h5{
-    margin: 0;
-}
-.bottom p{
-    margin: 0;
-    font-size: 14px;
-}
-.bottom .p-2{
-    margin: 0;
-    font-size: 18px;
-}
-.bottom .right{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.bottom button{
-    font-size: 15px;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+    border: 1px solid red;
+    height: 12vh;
 }
